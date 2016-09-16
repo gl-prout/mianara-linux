@@ -1,6 +1,37 @@
 \documentclass[a4paper,10pt]{book}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{listings}
 
 \begin{document}
+% Page de titre
+\input{tex/frontmatter/titre.tex}
+\maketitle
+
+% Préface etc
+\input{tex/frontmatter/front.tex}
+
+% Corps principal du livre
+\mainmatter
+% Partie 1
+\input{tex/mainmatter/part1/p_apropos.tex}
+
+% Partie 2
+\input{tex/mainmatter/part2/p_basique.tex}
+
+% Partie 3
+\input{tex/mainmatter/part3/p_avance.tex}
+
+% Autres parties? À ajouter au cas où
+
+% Conclusion
+\input{tex/mainmatter/conclude.tex}
+
+\backmatter
+% Annexes?
+\input{tex/backmatter/p_annexe.tex}
 
 \end{document}

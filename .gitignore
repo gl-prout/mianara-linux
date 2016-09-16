@@ -153,3 +153,4 @@ pythontex-files-*/
 
 ## Kile project files
 *.kilepr
+*.backup
