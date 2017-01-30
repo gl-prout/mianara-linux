@@ -154,3 +154,6 @@ pythontex-files-*/
 ## Kile project files
 *.kilepr
 *.backup
+
+## Table of contents auxiliaries
+*.toc
